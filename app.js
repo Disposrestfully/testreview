@@ -495,11 +495,25 @@ function normalizeJumpId(value) {
   return input;
 }
 
+function jumpRangeHint() {
+  const sorted = sortSequential(state.questions);
+  const first = sorted[0];
+  const last = sorted.at(-1);
+  if (!first || !last) return "请输入有效的题目编号。";
+
+  const firstNumber = getNumericId(first.id);
+  const lastNumber = getNumericId(last.id);
+  const numericHint = Number.isSafeInteger(firstNumber) && Number.isSafeInteger(lastNumber)
+    ? ` 或数字 ${firstNumber}-${lastNumber}`
+    : "";
+  return `可输入 ${first.id}-${last.id}${numericHint}。`;
+}
+
 function jumpToQuestion(value) {
   const id = normalizeJumpId(value);
   const index = state.order.findIndex((question) => question.id === id);
   if (index < 0) {
-    elements.jumpMessage.textContent = `没有找到“${value}”。可输入 R001-R100 或数字 1-100。`;
+    elements.jumpMessage.textContent = `没有找到“${value}”。${jumpRangeHint()}`;
     elements.jumpInput.setAttribute("aria-invalid", "true");
     return;
   }

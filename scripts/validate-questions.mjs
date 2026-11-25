@@ -7,7 +7,7 @@ const siteDirectory = resolve(scriptDirectory, "..");
 const dataPath = process.argv[2]
   ? resolve(process.cwd(), process.argv[2])
   : resolve(siteDirectory, "data/questions.json");
-const expectedCount = Number(process.env.EXPECTED_COUNT || 100);
+const expectedCount = Number(process.env.EXPECTED_COUNT || 120);
 const allowedDifficulties = ["基础", "中等", "进阶", "挑战"];
 const difficultyRank = new Map(allowedDifficulties.map((value, index) => [value, index]));
 const errors = [];

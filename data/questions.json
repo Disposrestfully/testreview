@@ -3752,5 +3752,885 @@
     ],
     "difficulty": "挑战",
     "image": null
+  },
+  {
+    "id": "R101",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "68岁男性进行性活动后气促和干咳2年，双肺底可闻及Velcro样爆裂音。无粉尘、鸟类或霉菌暴露史，自身抗体筛查阴性。结合图示HRCT，最合理的诊断与下一步处理是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "过敏性肺炎；仅脱离过敏原即可，无需随访肺功能"
+      },
+      {
+        "key": "B",
+        "text": "特发性肺纤维化；影像符合典型UIP模式时通常无需外科肺活检，可评估吡非尼酮或尼达尼布治疗"
+      },
+      {
+        "key": "C",
+        "text": "肺泡蛋白沉积症；首选全肺灌洗"
+      },
+      {
+        "key": "D",
+        "text": "机化性肺炎；首选长期大剂量抗菌药"
+      },
+      {
+        "key": "E",
+        "text": "结节病；仅凭ACE升高即可确诊"
+      }
+    ],
+    "answer": "B",
+    "explanation": "判断路径：图中病变以双侧胸膜下、基底部为主，可见网格影、牵拉性支气管扩张和成簇囊状结构，属于典型UIP影像模式。病例又排除了明确环境暴露和结缔组织病线索，因此最符合特发性肺纤维化。典型UIP影像结合恰当临床背景时，外科肺活检通常不会增加足够诊断收益，反而可能诱发急性加重；应进行多学科讨论、评估抗纤维化治疗、肺康复、氧疗和移植时机。\n干扰项：过敏性肺炎更常有暴露史、马赛克灌注或小叶中心结节；肺泡蛋白沉积症倾向铺路石征；机化性肺炎以迁徙性实变为主；结节病常呈沿淋巴管分布结节和肺门淋巴结病。",
+    "tags": [
+      "UIP",
+      "特发性肺纤维化",
+      "HRCT",
+      "抗纤维化治疗"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/uip-ct.jpg",
+      "alt": "胸部高分辨率CT肺窗横断面图像",
+      "credit": "Yale Rosen / Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CT_scan_in_usual_interstitial_pneumonia_(UIP).jpg"
+    }
+  },
+  {
+    "id": "R102",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "51岁男性自幼反复左下肺感染，近1年多次咯血。此次24小时咯血约350 mL，经气道保护和复苏后血流动力学稳定。结合图示CT，下一步最合理的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "立即给予全身溶栓以解除局部血管阻塞"
+      },
+      {
+        "key": "B",
+        "text": "仅口服止血药后回家观察，不需定位出血来源"
+      },
+      {
+        "key": "C",
+        "text": "常规盲目夹闭左主支气管并永久保留"
+      },
+      {
+        "key": "D",
+        "text": "行支气管动脉CTA或造影定位并栓塞；稳定后再评估局限病灶的择期切除"
+      },
+      {
+        "key": "E",
+        "text": "因病变位于下叶，应直接诊断肺栓塞并抗凝"
+      }
+    ],
+    "answer": "D",
+    "explanation": "判断路径：冠状位CT显示病变局限于左下叶，多发扩张、壁增厚的支气管与反复感染史一致；大咯血的供血来源多数为体循环高压的支气管动脉。完成气道保护和循环复苏后，支气管动脉CTA/造影可定位异常供血，栓塞是控制急性大咯血的重要方法。病变局限且反复感染或再出血者，稳定后可评估肺功能并考虑择期切除。\n干扰项：溶栓或抗凝会加重出血；单纯止血药不能处理危及生命的出血源；盲目、永久阻断主支气管会损伤健肺且不是标准治疗。",
+    "tags": [
+      "支气管扩张",
+      "大咯血",
+      "支气管动脉栓塞",
+      "胸部CT"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/bronchiectasis-coronal.jpg",
+      "alt": "胸部CT冠状位重建图像",
+      "credit": "Hellerhoff / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronchiektasen_links_basal_51M_-_CT_coronar_-_001.jpg"
+    }
+  },
+  {
+    "id": "R103",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "45岁女性术后突发胸痛，CTPA如图。血压128/76 mmHg，sPESI=0，超声心动图未见右室功能异常，肌钙蛋白正常，无出血风险，Hestia标准均阴性。最恰当的处理是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "因为血栓位于中央肺动脉，立即全身溶栓"
+      },
+      {
+        "key": "B",
+        "text": "因血压正常，可不抗凝只复查CT"
+      },
+      {
+        "key": "C",
+        "text": "按低危急性肺栓塞给予足量抗凝；在随访可靠时可考虑早期出院或门诊治疗"
+      },
+      {
+        "key": "D",
+        "text": "常规置入下腔静脉滤器替代抗凝"
+      },
+      {
+        "key": "E",
+        "text": "立即行外科肺动脉血栓切除，不考虑风险分层"
+      }
+    ],
+    "answer": "C",
+    "explanation": "判断路径：图中肺动脉腔内可见造影剂包绕的充盈缺损，证实急性肺栓塞。风险分层取决于血流动力学、临床评分、右室功能和心肌损伤，而不是只看血栓位置或视觉上的“负荷”。本例血流动力学稳定、sPESI=0、右室和肌钙蛋白均正常，并通过Hestia筛查，属于低危，可足量抗凝并在保证依从性和随访的前提下考虑门诊管理。\n干扰项：稳定低危患者常规溶栓的出血风险大于获益；滤器主要用于抗凝绝对禁忌或特定抗凝失败情形；不抗凝会增加复发和死亡风险。",
+    "tags": [
+      "肺栓塞",
+      "CTPA",
+      "风险分层",
+      "门诊抗凝"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/pulmonary-embolism-ctpa.jpeg",
+      "alt": "胸部CT肺动脉造影多平面图像",
+      "credit": "Aung Myat and Arif Ahsan / Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulmonary_embolism_CTPA.JPEG"
+    }
+  },
+  {
+    "id": "R104",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "32岁女性干咳、葡萄膜炎和结节性红斑，血钙轻度升高。胸片如图；当地结核流行，结核感染检测阳性但无活动性结核病原学证据。为获得最可靠的病理诊断，首选是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "超声支气管镜引导下针吸取胸内淋巴结，并同时送病理及分枝杆菌学检查"
+      },
+      {
+        "key": "B",
+        "text": "仅根据血清ACE升高确诊并终身使用糖皮质激素"
+      },
+      {
+        "key": "C",
+        "text": "直接开胸切除整叶肺组织作为首选取材方式"
+      },
+      {
+        "key": "D",
+        "text": "因结核感染检测阳性，排除其他资料后仍可直接诊断活动性结核"
+      },
+      {
+        "key": "E",
+        "text": "仅行痰细菌培养，阴性即可确诊非感染性肉芽肿病"
+      }
+    ],
+    "answer": "A",
+    "explanation": "判断路径：临床有葡萄膜炎、结节性红斑和高钙血症，影像有对称性胸内淋巴结增大并伴肺实质改变，强烈提示结节病。但在结核流行地区，肉芽肿性疾病必须排除结核等感染。EBUS-TBNA能以较低创伤获取纵隔或肺门淋巴结，组织学寻找非干酪性肉芽肿，同时送抗酸染色、核酸和培养。\n干扰项：ACE敏感性和特异性均不足；结核感染检测只能提示免疫致敏，不能证明活动病；开胸肺活检创伤过大，不应作为存在可及淋巴结时的首选。",
+    "tags": [
+      "结节病",
+      "EBUS-TBNA",
+      "肉芽肿",
+      "结核鉴别"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/sarcoidosis-xray.png",
+      "alt": "胸部正位X线图像",
+      "credit": "Jmh649 / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AP_X-ray_of_sarcoidosis.png"
+    }
+  },
+  {
+    "id": "R105",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "60岁男性酒精依赖，醉酒呕吐后持续高热、咳大量脓臭痰。CT如图，生命体征稳定，无大咯血，病灶直径约4 cm。最合理的初始方案是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "按病毒性肺炎观察，不给予抗菌药"
+      },
+      {
+        "key": "B",
+        "text": "立即全肺切除，不进行药物治疗"
+      },
+      {
+        "key": "C",
+        "text": "仅用覆盖非典型病原体的大环内酯类单药"
+      },
+      {
+        "key": "D",
+        "text": "常规经皮穿刺引流所有空洞，不考虑与支气管相通"
+      },
+      {
+        "key": "E",
+        "text": "给予覆盖口咽厌氧菌和常见需氧菌的抗菌治疗并促进引流，疗效不佳或出现并发症时再评估介入或手术"
+      }
+    ],
+    "answer": "E",
+    "explanation": "判断路径：误吸危险、脓臭痰与CT所见肺实质内厚壁空腔支持误吸相关肺脓肿。多数原发性肺脓肿与支气管相通，首选能覆盖口咽混合厌氧菌的抗菌药，如β-内酰胺/β-内酰胺酶抑制剂，并配合排痰、营养和疗效影像随访。若充分治疗仍无改善、空腔巨大、存在梗阻性肿瘤或发生大咯血/脓胸，再考虑支气管镜、经皮引流或手术。\n干扰项：常规立即穿刺可能造成脓胸或支气管胸膜瘘；大环内酯单药不能可靠覆盖混合厌氧感染；稳定患者无需首选肺切除。",
+    "tags": [
+      "肺脓肿",
+      "误吸",
+      "厌氧菌",
+      "胸部CT"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/lung-abscess-ct.jpg",
+      "alt": "胸部CT肺窗横断面图像",
+      "credit": "Yale Rosen / Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lung_abscess_-_CT_scan_(7471756882).jpg"
+    }
+  },
+  {
+    "id": "R106",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "72岁男性急性心肌梗死后突发端坐呼吸、粉红色泡沫痰，血压192/108 mmHg，SpO₂ 78%，胸片如图，四肢湿冷但意识清楚。最合理的早期呼吸与血流动力学处理组合是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "快速大量补液并停用所有血管扩张药"
+      },
+      {
+        "key": "B",
+        "text": "无创正压通气或CPAP、滴定硝酸酯降低前后负荷，并结合容量状态使用袢利尿剂"
+      },
+      {
+        "key": "C",
+        "text": "常规肌注吗啡作为改善预后的核心治疗"
+      },
+      {
+        "key": "D",
+        "text": "仅用抗菌药治疗，等待影像自然吸收"
+      },
+      {
+        "key": "E",
+        "text": "把氧饱和度目标限制在88%以下以防二氧化碳潴留"
+      }
+    ],
+    "answer": "B",
+    "explanation": "判断路径：急性左心事件、高血压、粉红泡沫痰及胸片双侧中央为主的肺泡性阴影，符合急性心源性肺水肿。清醒且能保护气道者应尽早使用CPAP或无创通气改善氧合、降低呼吸功和静脉回流；高血压背景下硝酸酯可迅速降低前后负荷，存在容量超负荷时加用袢利尿剂，并同步处理心肌缺血。\n干扰项：大量补液会加重肺淤血；吗啡可能造成呼吸抑制和不良结局，不应常规使用；影像与发病速度不支持单纯感染；此处不存在将SpO₂压低到88%以下的依据。",
+    "tags": [
+      "心源性肺水肿",
+      "无创通气",
+      "硝酸酯",
+      "胸片"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/pulmonary-edema-xray.png",
+      "alt": "胸部正位X线图像",
+      "credit": "Hellerhoff / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:16-01-Lungenoedem.png"
+    }
+  },
+  {
+    "id": "R107",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "患者腹部手术后第2天突发呼吸困难，右侧呼吸音显著减弱，胸片如图。气管和纵隔结构偏向右侧，床旁超声未见大量胸水。最优先的处理是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "按张力性气胸立即行右侧针刺减压"
+      },
+      {
+        "key": "B",
+        "text": "按大量胸腔积液一次快速抽尽全部液体"
+      },
+      {
+        "key": "C",
+        "text": "等待24小时复查，因为术后白肺均可自行恢复"
+      },
+      {
+        "key": "D",
+        "text": "给予吸氧和肺复张措施，并尽快支气管镜清除可能的主支气管黏液栓"
+      },
+      {
+        "key": "E",
+        "text": "立即全身溶栓，因肺栓塞可造成单侧白肺"
+      }
+    ],
+    "answer": "D",
+    "explanation": "判断路径：右侧胸腔几乎完全致密，同时纵隔向病侧移位，提示显著肺容量丢失而非占位效应，最符合右肺不张。术后、咳嗽无力和突发单侧呼吸音减弱提示主支气管黏液栓。应改善氧合、体位引流和肺复张；完全或近完全肺不张且疑大气道阻塞时，尽快支气管镜清除栓塞。\n干扰项：大量积液通常把纵隔推向健侧；气胸表现为患侧透亮度增加而非白肺；肺栓塞的普通胸片常正常或仅有非特异改变。",
+    "tags": [
+      "肺不张",
+      "黏液栓",
+      "支气管镜",
+      "纵隔移位"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/atelectasis-xray.jpg",
+      "alt": "胸部正位X线图像",
+      "credit": "Pabloes / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atelectasia1.jpg"
+    }
+  },
+  {
+    "id": "R108",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "70岁退休船厂工人无明显呼吸症状，低剂量CT如图，肺功能和弥散量正常。关于图中胸膜改变，最准确的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "已经等同于弥漫性肺间质纤维化，必然导致限制性通气障碍"
+      },
+      {
+        "key": "B",
+        "text": "证明当前存在恶性胸膜间皮瘤"
+      },
+      {
+        "key": "C",
+        "text": "是既往石棉暴露的标志，本身常无症状；仍需结合暴露量、肺实质和肿瘤风险进行随访评估"
+      },
+      {
+        "key": "D",
+        "text": "提示活动性结核，必须立即四联抗结核"
+      },
+      {
+        "key": "E",
+        "text": "属于正常老化，与职业史无关"
+      }
+    ],
+    "answer": "C",
+    "explanation": "判断路径：图中胸膜表面有局限性增厚和钙化样高密度灶，典型胸膜斑常见于既往石棉暴露，是暴露标志而非石棉肺本身。单纯胸膜斑常不引起显著肺功能下降；石棉肺要求肺实质纤维化证据。石棉暴露同时增加肺癌和恶性胸膜间皮瘤风险，因此应结合吸烟、累积暴露和肺实质改变进行风险管理。\n干扰项：胸膜斑不等于恶性肿瘤，也不能据此诊断活动性结核；将其视为正常老化会忽略重要职业病线索。",
+    "tags": [
+      "胸膜斑",
+      "石棉暴露",
+      "职业病",
+      "胸部CT"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/pleural-plaques-ct.jpg",
+      "alt": "胸部CT纵隔窗横断面图像",
+      "credit": "Yale Rosen / Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asbestosis_and_cryptococcosis_-_Pleural_plaques_-_CT_scan_Case_194_(5999300496).jpg"
+    }
+  },
+  {
+    "id": "R109",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "74岁男性有30年石棉接触史，左侧持续胸痛、消瘦和反复血性胸腔积液。增强CT如图，胸水细胞学两次阴性。下一步最合理的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "胸腔镜下多点胸膜活检以获得足量组织，并完成免疫组化和分子辅助鉴别"
+      },
+      {
+        "key": "B",
+        "text": "因胸水细胞学阴性，排除胸膜恶性肿瘤"
+      },
+      {
+        "key": "C",
+        "text": "只做经皮肺实质穿刺，不取胸膜组织"
+      },
+      {
+        "key": "D",
+        "text": "按结核性胸膜炎经验治疗6个月后再判断"
+      },
+      {
+        "key": "E",
+        "text": "仅复查胸片，等待胸膜增厚自行消失"
+      }
+    ],
+    "answer": "A",
+    "explanation": "判断路径：石棉暴露、单侧胸痛、血性积液及CT所示弥漫性结节状胸膜增厚并包绕肺，强烈提示恶性胸膜间皮瘤。胸水细胞学对间皮瘤敏感性有限，阴性不能排除；胸腔镜多点活检能获得足量组织，评估浸润，并用间皮来源标志物及BAP1缺失、CDKN2A纯合缺失等辅助区分恶性间皮瘤与反应性增生。\n干扰项：病变中心在胸膜而非肺实质；无病原学证据时长期经验抗结核会延误肿瘤诊断。",
+    "tags": [
+      "恶性胸膜间皮瘤",
+      "石棉",
+      "胸腔镜活检",
+      "胸腔积液"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/mesothelioma-ct.jpg",
+      "alt": "胸部增强CT冠状位图像",
+      "credit": "Frank Gaillard / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MesotheliomaCT.jpg"
+    }
+  },
+  {
+    "id": "R110",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "63岁重度吸烟者出现右肩痛并沿前臂内侧放射，右眼睑下垂、瞳孔缩小，右手小肌无力。胸片如图。为制定根治性治疗方案，最完整的下一步是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "只做痰培养，阴性后直接肺叶切除"
+      },
+      {
+        "key": "B",
+        "text": "仅凭Horner综合征判断为脑转移，不再评估胸部病灶"
+      },
+      {
+        "key": "C",
+        "text": "先全身溶栓，观察肩痛是否缓解"
+      },
+      {
+        "key": "D",
+        "text": "不取病理，直接长期放疗"
+      },
+      {
+        "key": "E",
+        "text": "增强CT与胸廓入口MRI评估血管、臂丛和椎管侵犯，获取组织并完成PET-CT及脑MRI分期"
+      }
+    ],
+    "answer": "E",
+    "explanation": "判断路径：肩臂痛、C8-T1受累表现和Horner综合征，结合肺尖异常，提示肺上沟瘤。能否切除取决于锁骨下血管、臂丛、椎体和椎管等局部侵犯；胸廓入口MRI优于常规CT显示软组织和神经孔受累。治疗前还必须取得病理，并用PET-CT和脑MRI完成远处及纵隔分期。可切除的非小细胞肺癌常采用诱导同步放化疗后手术的多学科方案。\n干扰项：症状来自胸廓入口局部侵犯，不等同脑转移；未经病理和分期直接手术或放疗均可能造成错误治疗。",
+    "tags": [
+      "肺上沟瘤",
+      "Horner综合征",
+      "胸廓入口MRI",
+      "肺癌分期"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/pancoast-xray.jpg",
+      "alt": "胸部正位X线图像",
+      "credit": "Jmarchn / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pancoast_Tumor_1.jpg"
+    }
+  },
+  {
+    "id": "R111",
+    "type": "single",
+    "typeLabel": "A2 型病理病例单选题",
+    "stem": "65岁男性吸烟50包年，中央型肺门肿块活检如图；免疫组化Syn、CgA、INSM1阳性，Ki-67约85%。分期显示病灶局限于一侧胸腔且可纳入单一放疗野，脑MRI阴性，体能状态良好。首选根治性方案是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "单纯肺叶切除，不需纵隔分期或辅助治疗"
+      },
+      {
+        "key": "B",
+        "text": "仅口服EGFR-TKI，无需检测或放疗"
+      },
+      {
+        "key": "C",
+        "text": "依托泊苷联合铂类化疗并尽早同步胸部放疗，治疗后再评估预防性脑照射或MRI监测"
+      },
+      {
+        "key": "D",
+        "text": "仅给予抗菌药，等待肿块缩小"
+      },
+      {
+        "key": "E",
+        "text": "常规首选全肺切除联合胸膜剥脱"
+      }
+    ],
+    "answer": "C",
+    "explanation": "判断路径：形态为小型深染细胞、胞质少、核模塑和高增殖，结合神经内分泌标志物，符合小细胞肺癌。病灶局限于可接受单一放疗野且无远处转移，为局限期；体能状态良好时标准根治策略是铂类加依托泊苷并早期同步胸部放疗。脑MRI阴性者完成治疗后应个体化讨论预防性脑照射与严密MRI监测。\n干扰项：小细胞肺癌早期微转移倾向强，除极少数严格分期的T1-2N0病例外通常不以手术为主；EGFR-TKI不是典型小细胞癌的标准首选。",
+    "tags": [
+      "小细胞肺癌",
+      "神经内分泌肿瘤",
+      "同步放化疗",
+      "病理"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/small-cell-carcinoma-histology.jpg",
+      "alt": "肺肿瘤组织苏木精伊红染色高倍图像",
+      "credit": "Ed Uthman / Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small_cell_carcinoma,_H%26E_(400x)_(321570775).jpg"
+    }
+  },
+  {
+    "id": "R112",
+    "type": "single",
+    "typeLabel": "A2 型病理病例单选题",
+    "stem": "68岁男性吸烟史，CT示中央型空洞性肺肿块，血钙升高、PTH受抑制。支气管刷检细胞学如图。最符合的病理类型及免疫表型是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "肺腺癌；TTF-1和Napsin A弥漫阳性"
+      },
+      {
+        "key": "B",
+        "text": "肺鳞状细胞癌；p40和CK5/6阳性，TTF-1通常阴性"
+      },
+      {
+        "key": "C",
+        "text": "典型类癌；Ki-67通常超过80%并广泛坏死"
+      },
+      {
+        "key": "D",
+        "text": "小细胞肺癌；以角化珠和细胞间桥为主要特征"
+      },
+      {
+        "key": "E",
+        "text": "转移性甲状腺癌；仅凭高钙血症即可确定"
+      }
+    ],
+    "answer": "B",
+    "explanation": "判断路径：中央型空洞肿块、吸烟史及PTH受抑制性高钙血症提示PTHrP相关肺鳞癌。细胞学可见明显角化的橘红色异型细胞和蝌蚪样细胞，支持鳞状分化；典型免疫表型为p40、p63和CK5/6阳性，TTF-1及Napsin A通常阴性。\n干扰项：腺癌多位于外周并形成腺样结构或黏液；小细胞癌表现为核模塑、胞质稀少而非角化；典型类癌增殖指数低且坏死少。高钙血症是旁肿瘤线索，仍需形态和免疫组化确认。",
+    "tags": [
+      "肺鳞癌",
+      "细胞学",
+      "PTHrP",
+      "免疫组化"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/squamous-carcinoma-cytology.jpg",
+      "alt": "支气管刷检巴氏染色图像",
+      "credit": "Ed Uthman / Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squamous_Cell_Carcinoma,_Bronchial_Washing,_Pap_Stain_(8695759125).jpg"
+    }
+  },
+  {
+    "id": "R113",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "使用英夫利昔单抗的患者持续发热、消瘦、肝脾肿大和低氧，胸片如图。连续两份自咳痰涂片阴性，但眼底发现脉络膜结节，骨髓活检见肉芽肿。最恰当的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "涂片阴性已排除结核，继续原免疫抑制治疗"
+      },
+      {
+        "key": "B",
+        "text": "按心源性肺水肿单纯强化利尿"
+      },
+      {
+        "key": "C",
+        "text": "仅等待6周培养结果，期间不隔离也不治疗"
+      },
+      {
+        "key": "D",
+        "text": "采取空气传播隔离，获取诱导痰或BALF行核酸与培养，并在高度怀疑下及时启动标准抗结核方案"
+      },
+      {
+        "key": "E",
+        "text": "立即使用大剂量糖皮质激素单药治疗所有肉芽肿"
+      }
+    ],
+    "answer": "D",
+    "explanation": "判断路径：抗TNF治疗是结核播散的重要风险因素，胸片弥漫细小结节样改变、全身网状内皮系统受累和脉络膜结节支持血行播散性结核。自咳痰涂片敏感性有限，阴性不能排除；应进行空气隔离，以诱导痰、BALF及受累组织做核酸、涂片和培养。在危重或临床高度怀疑时不应等待培养才开始治疗。\n干扰项：利尿不能解释多系统肉芽肿表现；继续TNF抑制或激素单药可能加剧播散；等待培养会延误高死亡风险疾病。",
+    "tags": [
+      "粟粒性结核",
+      "抗TNF",
+      "空气隔离",
+      "分枝杆菌核酸"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/miliary-tuberculosis-xray.jpg",
+      "alt": "胸部正位X线图像",
+      "credit": "Benjamín Herreros et al. / Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_miliary_tuberculosis_1.jpg"
+    }
+  },
+  {
+    "id": "R114",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "患者食管内镜治疗后突发胸痛、呼吸困难和发热，胸片如图。胸部CT提示食管旁少量游离气体，口服对比剂可疑外漏。最合理的初始处理是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "禁食、广谱抗菌药和紧急外科/内镜团队评估，同时充分引流胸膜腔气液并处理食管破口"
+      },
+      {
+        "key": "B",
+        "text": "鼓励大量进食以确定漏口大小"
+      },
+      {
+        "key": "C",
+        "text": "仅利尿，认为水平液面来自心力衰竭"
+      },
+      {
+        "key": "D",
+        "text": "只做针刺排气，不处理胸膜腔液体和污染源"
+      },
+      {
+        "key": "E",
+        "text": "立即全身溶栓，因胸痛最常见于肺栓塞"
+      }
+    ],
+    "answer": "A",
+    "explanation": "判断路径：胸片显示胸膜腔内气体与液体形成水平界面，结合食管操作后胸痛、发热、纵隔旁气体和对比剂外漏，提示食管穿孔导致污染性液气胸。处理核心是立即禁食、抗菌覆盖口咽和消化道菌群、复苏、胸膜腔充分引流，并由胸外科和内镜团队根据破口位置、时间及污染程度选择修补、支架或其他源控制。\n干扰项：单纯排气不能清除污染液体；心衰胸水通常不形成胸膜腔水平气液面；溶栓会增加介入后出血且不解决污染源。",
+    "tags": [
+      "液气胸",
+      "食管穿孔",
+      "胸腔引流",
+      "源控制"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/hydropneumothorax-xray.jpg",
+      "alt": "胸部立位X线图像",
+      "credit": "James Heilman, MD / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydropneumo.jpg"
+    }
+  },
+  {
+    "id": "R115",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "既往空洞型肺结核患者反复咯血，影像如图；改变体位复查时空腔内团块位置发生移动。此次突发大咯血约500 mL，已建立气道保护。下一步最合理的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "立即给予治疗剂量抗凝以防团块脱落"
+      },
+      {
+        "key": "B",
+        "text": "仅口服氟康唑，认为可迅速止住大咯血"
+      },
+      {
+        "key": "C",
+        "text": "因团块可移动，证明为良性而无需处理"
+      },
+      {
+        "key": "D",
+        "text": "盲目经胸穿刺团块并反复冲洗空腔"
+      },
+      {
+        "key": "E",
+        "text": "定位出血侧并行支气管动脉栓塞控制急性出血，稳定后评估局限病灶切除的风险获益"
+      }
+    ],
+    "answer": "E",
+    "explanation": "判断路径：既往结核空洞内出现可随体位移动的团块，周围有空气间隙，符合曲霉球。曲霉球可侵蚀或牵拉支气管动脉导致致命性咯血。完成气道保护后，支气管动脉栓塞是急性控制大咯血的重要措施；若病灶局限且肺功能允许，手术切除可提供更持久控制。\n干扰项：氟康唑对曲霉活性不足，且系统抗真菌药对单纯空洞内真菌球穿透有限，不能替代大咯血止血；抗凝会恶化出血；经胸盲目穿刺可造成出血、气胸和播散。",
+    "tags": [
+      "曲霉球",
+      "大咯血",
+      "支气管动脉栓塞",
+      "结核后空洞"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/aspergilloma-xray.jpg",
+      "alt": "胸部正位X线图像",
+      "credit": "Yale Rosen / Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aspergilloma_X-ray_(5390379081).jpg"
+    }
+  },
+  {
+    "id": "R116",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "58岁石材切割工工作25年，胸片如图。近2个月出现低热、盗汗和体重下降。关于下一步处理，最恰当的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "职业性肺病不会合并结核，可只给予止咳药"
+      },
+      {
+        "key": "B",
+        "text": "直接长期使用大剂量糖皮质激素，不做病原学检查"
+      },
+      {
+        "key": "C",
+        "text": "按疑似活动性肺结核采取隔离并做痰核酸、涂片和培养，同时系统评估硅沉着病及其并发症"
+      },
+      {
+        "key": "D",
+        "text": "仅凭胸片即可确诊肺癌并开始靶向治疗"
+      },
+      {
+        "key": "E",
+        "text": "继续粉尘暴露以维持肺部免疫耐受"
+      }
+    ],
+    "answer": "C",
+    "explanation": "判断路径：长期高浓度游离二氧化硅暴露和胸片上肺野小结节样改变支持硅沉着病。二氧化硅损伤肺泡巨噬细胞，显著增加结核分枝杆菌感染和复燃风险；出现盗汗、消瘦等症状时必须按疑似活动性结核进行隔离和病原学检查，而不能把所有改变都归因于职业病。\n干扰项：糖皮质激素可能加重未识别的结核；胸片结节并非肺癌特异；继续暴露会推进纤维化。还应脱离粉尘、评估肺功能、慢性呼吸衰竭和肺高压。",
+    "tags": [
+      "硅沉着病",
+      "职业暴露",
+      "肺结核",
+      "胸片"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/silicosis-xray.jpg",
+      "alt": "胸部X线局部放大图像",
+      "credit": "DrSHaber / Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicosis.ILO_Classification_2-2_R-R.jpg"
+    }
+  },
+  {
+    "id": "R117",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "急性白血病患者在足量伏立康唑预防期间持续粒细胞缺乏并发热，胸部CT如图。鼻窦疼痛加重，血清GM阴性，培养尚未回报。最恰当的初始策略是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "继续原伏立康唑单药并等待两周，因为GM阴性可排除霉菌感染"
+      },
+      {
+        "key": "B",
+        "text": "立即改用脂质体两性霉素B并尽快获取病理和培养，评估可切除坏死组织"
+      },
+      {
+        "key": "C",
+        "text": "改用氟康唑，因为其对毛霉目活性最强"
+      },
+      {
+        "key": "D",
+        "text": "仅用棘白菌素单药治疗所有疑似毛霉病"
+      },
+      {
+        "key": "E",
+        "text": "停用全部抗真菌药，避免影响培养结果"
+      }
+    ],
+    "answer": "B",
+    "explanation": "判断路径：重度免疫抑制、在霉菌活性唑类暴露下突破感染、鼻窦受累以及CT外周致密环包绕中央磨玻璃区，应高度警惕侵袭性毛霉病。毛霉病时GM通常阴性，不能据此排除。应立即换用不同类别且覆盖毛霉目的脂质体两性霉素B，并积极获取组织做病理、培养和分子鉴定；局灶坏死组织在可行时需外科清除。\n干扰项：伏立康唑和氟康唑对毛霉目无可靠活性；棘白菌素单药不是标准治疗；延迟治疗会显著增加死亡。该影像征象并非绝对特异，但在此宿主背景下改变了经验治疗选择。",
+    "tags": [
+      "反晕征",
+      "毛霉病",
+      "突破性真菌感染",
+      "脂质体两性霉素B"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/reversed-halo-ct.jpg",
+      "alt": "胸部CT肺窗横断面图像",
+      "credit": "Jorge Alberto Carrillo, Paulina Ojeda and Juan Mauricio Pardo / Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chest_CT_with_reversed_halo_sign.jpg"
+    }
+  },
+  {
+    "id": "R118",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "20岁女性自幼反复右下肺感染，增强CT及三维血管重建如图。拟行手术前，最准确的诊断和关键规划是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "肺动静脉畸形；病变必由肺动脉供血且肺静脉引流"
+      },
+      {
+        "key": "B",
+        "text": "先天性肺气道畸形；无需评估任何血供"
+      },
+      {
+        "key": "C",
+        "text": "膈疝；首选抗凝治疗"
+      },
+      {
+        "key": "D",
+        "text": "肺隔离症；术前必须明确来自体循环的异常供血动脉及静脉回流"
+      },
+      {
+        "key": "E",
+        "text": "支气管源性囊肿；所有病变都与气道广泛交通"
+      }
+    ],
+    "answer": "D",
+    "explanation": "判断路径：下叶后基底段反复感染性病变，同时血管重建显示异常动脉直接来自降主动脉，符合肺隔离症。病变缺乏正常气管支气管交通，其定义性特征是体循环动脉供血。术前用CTA或MRA明确供血动脉的数量、起源和走行以及静脉回流，可防止术中致命性出血，并帮助选择切除或部分病例的血管内治疗。\n干扰项：肺动静脉畸形通常由肺动脉供血并经肺静脉回流；先天性肺气道畸形主要由肺循环供血；支气管源性囊肿并不具有来自主动脉的定义性异常供血。",
+    "tags": [
+      "肺隔离症",
+      "体循环供血",
+      "CTA",
+      "先天性肺病"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/pulmonary-sequestration-ct.jpg",
+      "alt": "增强胸部CT与三维血管重建组合图像",
+      "credit": "Hellerhoff / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungensequester_rechter_Unterlappen_20tW_-_CT_KM_arteriell_-_001.jpg"
+    }
+  },
+  {
+    "id": "R119",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "72岁男性吸烟60包年，咳嗽、脓痰和气促加重3天。胸片如图；吸入控制性氧疗后血气pH 7.27、PaCO₂ 68 mmHg、PaO₂ 58 mmHg，患者清醒但呼吸频率32次/分。最恰当的初始综合治疗是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "目标SpO₂ 88%～92%的氧疗、短效支气管舒张剂、全身糖皮质激素及按指征抗菌，并尽快双水平无创通气"
+      },
+      {
+        "key": "B",
+        "text": "为使SpO₂达到100%持续高流量纯氧，不复查血气"
+      },
+      {
+        "key": "C",
+        "text": "仅使用镇静药降低呼吸频率"
+      },
+      {
+        "key": "D",
+        "text": "因胸片肺野透亮，立即双侧胸腔闭式引流"
+      },
+      {
+        "key": "E",
+        "text": "停止所有支气管舒张剂，仅长期卧床观察"
+      }
+    ],
+    "answer": "A",
+    "explanation": "判断路径：吸烟史、胸片肺过度充气和急性呼吸症状支持COPD急性加重；pH 7.27伴PaCO₂升高说明急性高碳酸血症性呼吸衰竭。患者清醒且能保护气道，适合尽快试用双水平无创通气，同时控制氧疗至88%～92%、给予短效β₂激动剂联合抗胆碱药、短程全身激素；出现脓痰等细菌感染线索时按指征用抗菌药。\n干扰项：无控制高浓度氧可通过加重V/Q失配等机制进一步升高PaCO₂；镇静会抑制通气；胸片透亮来自过度充气而不是双侧气胸。治疗后需在短时间内复查血气和意识。",
+    "tags": [
+      "AECOPD",
+      "无创通气",
+      "高碳酸血症",
+      "控制性氧疗"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/copd-exacerbation-xray.jpg",
+      "alt": "胸部正位X线图像",
+      "credit": "Mikael Häggström, MD / Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:X-ray_of_COPD_exacerbation_-_anteroposterior_view.jpg"
+    }
+  },
+  {
+    "id": "R120",
+    "type": "single",
+    "typeLabel": "A2 型影像病例单选题",
+    "stem": "35岁女性进行性活动后气促、胸痛和晕厥，胸片如图。超声估测肺动脉收缩压明显升高并见右心扩大，左室收缩功能正常。为确诊并决定是否使用肺动脉高压靶向药，下一步最关键的是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅凭胸片开始三联靶向治疗，无需血流动力学确认"
+      },
+      {
+        "key": "B",
+        "text": "只做D-二聚体，阴性即可排除所有慢性血栓栓塞性病变"
+      },
+      {
+        "key": "C",
+        "text": "仅复查超声，因为超声可直接测得肺毛细血管楔压"
+      },
+      {
+        "key": "D",
+        "text": "先长期利尿，症状改善即可确定为左心病相关肺高压"
+      },
+      {
+        "key": "E",
+        "text": "行右心导管检查确认血流动力学类型，并用通气/灌注显像筛查慢性血栓栓塞性肺高压"
+      }
+    ],
+    "answer": "E",
+    "explanation": "判断路径：胸片显示中央肺动脉显著增宽并伴外周血管相对稀疏，结合晕厥和右心扩大提示重度肺高压。超声用于筛查和估测概率，但不能替代右心导管；后者测量mPAP、PAWP和PVR，区分毛细血管前与后肺高压，是启动肺动脉高压特异治疗前的确诊基础。所有原因未明的肺高压还应以V/Q显像筛查CTEPH，因为其敏感性高且存在潜在可治愈的肺动脉内膜剥脱术路径。\n干扰项：D-二聚体不能排除慢性机化血栓；超声不能直接测得PAWP；未经分型盲用肺血管扩张剂可能在左心病或肺静脉闭塞病中造成危害。",
+    "tags": [
+      "肺动脉高压",
+      "右心导管",
+      "VQ显像",
+      "CTEPH"
+    ],
+    "difficulty": "挑战",
+    "image": {
+      "src": "./assets/questions/pulmonary-hypertension-xray.jpg",
+      "alt": "胸部正位X线图像",
+      "credit": "Hellerhoff / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwere_pulmonale_Hypertonie_51W_-_CR_pa_-_001.jpg"
+    }
   }
 ]

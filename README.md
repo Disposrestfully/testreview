@@ -43,7 +43,7 @@ npm run preview
 
 | 字段 | 必填 | 说明 |
 | --- | --- | --- |
-| `id` | 是 | 稳定编号，格式为 `R001` 到 `R100`。发布后不要复用或随意改变。 |
+| `id` | 是 | 稳定编号，使用 `R` 加三位数字（如 `R001`、`R120`）。发布后不要复用或随意改变。 |
 | `type` | 是 | `single` 为单选，`multiple` 为多选。 |
 | `stem` | 是 | 题干纯文本。 |
 | `options` | 是 | 选项数组。每项包含唯一的 `key` 与非空 `text`。 |
@@ -86,7 +86,7 @@ npm run check
 
 仓库内的 `.github/workflows/deploy-pages.yml` 会在每次推送到 `main` 后自动执行：
 
-1. 校验 JavaScript 和 100 道题的数据结构。
+1. 校验 JavaScript 和 120 道题的数据结构。
 2. 生成只包含运行文件的 `_site` 发布包。
 3. 上传并部署到 GitHub Pages。
 
