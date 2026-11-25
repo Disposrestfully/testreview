@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "sourcePolicy": "All images are stored locally for stable GitHub Pages deployment. Attribution and license details were verified against each Wikimedia Commons file page on 2026-11-25.",
+  "images": [
+    {
+      "file": "assets/questions/pneumothorax.png",
+      "topic": "张力性气胸",
+      "alt": "胸部X线片显示右侧大量气胸，右肺明显萎陷并伴纵隔向左移位",
+      "credit": "Hellerhoff / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:09-01-Pneumothorax.png",
+      "suggestedQuestionConcept": "结合突发呼吸困难、低血压与单侧呼吸音消失，识别张力性气胸并选择先减压、后置管的急救顺序。"
+    },
+    {
+      "file": "assets/questions/pleural-effusion-upright.png",
+      "topic": "大量胸腔积液",
+      "alt": "直立位胸部X线片显示左侧大量胸腔积液，左下肺野均匀致密并形成弧形上缘",
+      "credit": "James Heilman, MD / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Effusionhalf.PNG",
+      "suggestedQuestionConcept": "识别左侧大量胸腔积液，并推断患侧语颤减弱、叩诊浊音和呼吸音减弱。"
+    },
+    {
+      "file": "assets/questions/pleural-effusion.jpg",
+      "topic": "侧卧位胸片与游离胸腔积液",
+      "alt": "侧卧位胸部X线片显示右侧胸膜腔液体沿重力方向分层，图中红色箭头标出液体层宽度",
+      "credit": "CDC source; edited by InvictaHOG / Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pleural_effusion.jpg",
+      "suggestedQuestionConcept": "根据侧卧位胸片液体分层判断为可自由流动的胸腔积液，并与包裹性积液鉴别。"
+    },
+    {
+      "file": "assets/questions/lobar-pneumonia.jpg",
+      "topic": "大叶性肺炎",
+      "alt": "胸部X线片显示右中叶区域实变影，红色箭头指向病变",
+      "credit": "Mikael Häggström, MD / Wikimedia Commons",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:X-ray_of_lobar_pneumonia.jpg",
+      "suggestedQuestionConcept": "结合发热、咳铁锈色痰和局灶性实变，判断大叶性肺炎；也可考查右心缘轮廓改变的定位价值。"
+    },
+    {
+      "file": "assets/questions/pulmonary-tuberculosis.jpg",
+      "topic": "进展期肺结核",
+      "alt": "胸部X线片显示双肺浸润影及右上肺空洞，箭头标示右肺尖空洞形成",
+      "credit": "CDC Public Health Image Library, image 2543 / Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuberculosis-x-ray-1.jpg",
+      "suggestedQuestionConcept": "识别上肺空洞与双肺浸润的继发性肺结核表现，并选择痰抗酸染色、核酸检测和培养等病原学检查。"
+    },
+    {
+      "file": "assets/questions/ards-xray.jpg",
+      "topic": "急性呼吸窘迫综合征",
+      "alt": "床旁胸部X线片显示双肺弥漫性斑片状浸润影，符合ARDS的影像表现",
+      "credit": "Samir / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ARDS_X-Ray.jpg",
+      "suggestedQuestionConcept": "在脓毒症背景下结合双肺浸润与氧合指数判断ARDS严重度，并选择小潮气量、限制平台压和俯卧位通气。"
+    },
+    {
+      "file": "assets/questions/emphysema-ct.jpg",
+      "topic": "肺气肿",
+      "alt": "胸部CT肺窗显示双肺多发低密度区和肺实质破坏，符合终末期肺气肿",
+      "credit": "PLoS Medicine / Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emphysema_CT.JPG",
+      "suggestedQuestionConcept": "把肺气肿CT表现与阻塞性通气功能障碍、肺过度充气及DLCO下降联系起来。"
+    },
+    {
+      "file": "assets/questions/bronchiectasis-ct.jpg",
+      "topic": "支气管扩张",
+      "alt": "胸部高分辨率CT显示双下肺多发扩张支气管，部分呈囊状和环状影",
+      "credit": "Laura Fregonese and Jan Stolk / Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alpha-1-antitripsin_deficiency2.jpg",
+      "suggestedQuestionConcept": "识别支气管扩张的CT表现，并结合反复咳脓痰、咯血和感染史选择诊断或急性期处理。"
+    },
+    {
+      "file": "assets/questions/lung-adenocarcinoma-histology.png",
+      "topic": "肺腺癌病理",
+      "alt": "苏木精伊红染色病理图显示异型肿瘤细胞形成腺腔，符合腺泡型肺腺癌",
+      "credit": "Chen CL, Chen CC, Yu WH, Chen SH, Chang YC and Hsu TI / Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_lung_adenocarcinoma_with_acinar_pattern.png",
+      "suggestedQuestionConcept": "根据腺样结构识别肺腺癌，并结合TTF-1、Napsin A及驱动基因检测设计进阶题。"
+    }
+  ]
+}

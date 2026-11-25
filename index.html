@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7f8" />
+    <meta name="description" content="适合移动端使用的呼吸系统单题练习工具" />
+    <title>呼吸系统题库</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="study-header">
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="重新载入呼吸系统题库">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>呼吸系统题库</span>
+        </a>
+
+        <div class="session-tools">
+          <div class="mode-switch" aria-label="浏览顺序">
+            <button class="mode-button is-active" type="button" data-mode="sequential" aria-pressed="true">顺序</button>
+            <button class="mode-button" type="button" data-mode="random" aria-pressed="false">随机</button>
+          </div>
+          <form class="jump-form" id="jump-form" aria-label="跳转到题目">
+            <label for="question-id">跳到</label>
+            <input id="question-id" name="question-id" type="text" inputmode="text" placeholder="R042" autocomplete="off" aria-describedby="jump-message" />
+            <button type="submit">前往</button>
+          </form>
+        </div>
+      </div>
+      <p id="jump-message" class="jump-message" role="status" aria-live="polite"></p>
+    </header>
+
+    <main class="quiz-shell" id="main-content">
+      <section class="status-panel" id="loading-state" aria-live="polite">
+        <span class="loading-line loading-line--short"></span>
+        <span class="loading-line loading-line--long"></span>
+        <span class="loading-line"></span>
+        <p>正在读取题库...</p>
+      </section>
+
+      <section class="status-panel" id="error-state" hidden>
+        <h1>题库暂时无法读取</h1>
+        <p id="error-message">请检查题库文件后重试。</p>
+        <button id="retry-button" type="button">重新读取</button>
+      </section>
+
+      <section class="status-panel" id="empty-state" hidden>
+        <h1>题库中还没有题目</h1>
+        <p>请在 <code>data/questions.json</code> 中添加题目。</p>
+      </section>
+
+      <article class="question-sheet" id="question-sheet" hidden>
+        <div class="question-progress" id="question-progress" role="progressbar" aria-label="当前浏览进度" aria-valuemin="1">
+          <div class="progress-copy">
+            <span>第 <strong id="position-current">1</strong> / <span id="position-total">100</span> 题</span>
+            <span id="question-type">单选题</span>
+          </div>
+          <div class="progress-track" aria-hidden="true"><span id="progress-fill"></span></div>
+        </div>
+
+        <div class="question-identity">
+          <span class="stable-id" id="stable-id">R001</span>
+          <span class="difficulty" id="difficulty">基础</span>
+        </div>
+
+        <ul class="tag-list" id="tag-list" aria-label="考点标签"></ul>
+        <h1 id="question-title" class="question-title"></h1>
+
+        <figure class="question-media" id="question-media" hidden>
+          <button class="image-button" id="image-button" type="button" aria-label="查看完整图片">
+            <img id="question-image" alt="" />
+          </button>
+          <figcaption id="image-caption"></figcaption>
+        </figure>
+
+        <fieldset class="option-list" id="option-list">
+          <legend class="sr-only">请选择答案</legend>
+        </fieldset>
+
+        <div class="answer-tools">
+          <button class="reveal-button" id="reveal-button" type="button" aria-expanded="false" aria-controls="explanation">查看答案与解析</button>
+          <span class="answer-status" id="answer-status" aria-live="polite">选择答案后也可以直接查看解析</span>
+        </div>
+
+        <section class="explanation" id="explanation" hidden>
+          <div class="answer-line">
+            <span>正确答案</span>
+            <strong id="correct-answer"></strong>
+          </div>
+          <p class="selection-feedback" id="selection-feedback"></p>
+          <h2>解析</h2>
+          <div class="explanation-copy" id="explanation-copy"></div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="question-navigation" id="question-navigation" aria-label="题目导航" hidden>
+      <div class="navigation-inner">
+        <button id="previous-button" type="button"><span aria-hidden="true">←</span><span>上一题</span></button>
+        <span class="nav-position" id="nav-position">R001</span>
+        <button id="next-button" type="button"><span>下一题</span><span aria-hidden="true">→</span></button>
+      </div>
+    </nav>
+
+    <dialog class="image-dialog" id="image-dialog">
+      <div class="dialog-header">
+        <span id="dialog-title">题目图片</span>
+        <button id="dialog-close" type="button" aria-label="关闭大图">关闭</button>
+      </div>
+      <img id="dialog-image" alt="" />
+      <p id="dialog-credit"></p>
+    </dialog>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
